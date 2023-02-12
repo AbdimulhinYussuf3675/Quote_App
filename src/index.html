@@ -2,39 +2,51 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <script src="https://kit.fontawesome.com/e83d856101.js" crossorigin="anonymous"></script>
-  <title>QuoteApp</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quotes-App</title>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@2.1.1/build/global/luxon.min.js"></script>
 </head>
 
 <body>
+
   <header>
-    <nav>
-      <ul>
-        <li class="quote-link"><a href="">Qoutes</a></li>
-        <li class="quote-link"><a href="">List Quotes</a></li>
-        <li class="add-link"><a href="">Add Quotes</a></li>
-        <li class="contatct-link"><a href="">Contact</a></li>
+    <nav class="toolbar">
+
+      <ul class="navlinks">
+        <li class="link">
+          <a href="#bookStore" id="library">Quote List</a>
+        </li>
+        <li class="link">
+          <a href="#addbook" id="addLink">Add Quote</a>
+        </li>
+        <li class="link">
+          <a href="#contact" id="contactLink">Contact</a>
+        </li>
       </ul>
     </nav>
   </header>
-
   <main class="container">
-    <section class="quotes-store">
-      <div class="">
-        <div id="store">
-          <div class="empty hide" id="empty-id"></div>
-          <button id="addbtn1" type="submit">Add a book</button>
+
+
+
+
+    <section id="quoteStore">
+      <div id="store">
+        <div class="empty hide" id="empty-id">
         </div>
       </div>
+      <button id="addbtn1" type="submit">Add Quote</button>
+      <hr>
     </section>
 
     <section id="addQuote">
       <div class="library">
-        <h2 id="addTitle">Add a new Quote</h2>
+        <h2 id="addnewbooktitle">Add a Quote</h2>
         <form action="#" id="form-id">
           <input type="text" name="title" id="title" placeholder="Quote Title" required />
           <input type="text" name="author" id="author" placeholder="Quote Author" required />
@@ -43,16 +55,18 @@
           <button id="add-btn" type="submit">Add a book</button>
         </form>
       </div>
+      </form>
     </section>
     <section id="contact" class="contact">
       <div class="cont">
         <h2>Contact Information</h2>
         <div class="contactInfo">
-          <h4>
-            Do you have any questions or want to say "Hello"?<br />You can
-            reach out to me:
-          </h4>
+
           <ul>
+            <ul>
+              Do you have any questions or want to say "Hello"?<br />You can
+              reach out to me:
+            </ul>
             <li>
               Via e-mail: adamabdimulhi.001@gmail.com
             </li>
@@ -63,6 +77,14 @@
         </div>
       </div>
     </section>
+
+    <footer>
+      <p>
+        Copyright
+        <strong>Abdimulhin Adan</strong> </a>
+        &copy;2022
+      </p>
+    </footer>
   </main>
 </body>
 
