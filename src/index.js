@@ -1,3 +1,4 @@
 import './style.css';
 
-import bookLink from './modules/nav';
+// eslint-disable-next-line import/extensions, no-unused-vars
+import quoteLink from './modules/nav';
