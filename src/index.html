@@ -26,14 +26,16 @@
             </div>
         </div>
     </header>
-    <main class="container">
+    <main>
         <section id="quoteStore">
             <div id="store">
                 <div class="empty hide" id="empty-id">
                 </div>
             </div>
-            <button id="addbtn1" type="submit">Add a Quote</button>
-            <hr>
+            <div class="div-nav">
+                <button id="addbtn1" class="btn" type="submit">Add a Quote</button>
+            </div>
+            
         </section>
 
         <section id="addQuote">
@@ -46,11 +48,9 @@
                         name="quoteline" class="form-control ng-pristine ng-invalid ng-touched"
                         spellcheck="false"></textarea>
                     <input type="text" name="author" id="author" placeholder="Submited By" required />
-
-                    <button id="add-btn" type="submit">Add Quote</button>
+                    <input type="submit" value="Add Quote" id="send"><br>
                 </form>
             </div>
-
         </section>
         <section id="contact" class="contact">
             <div class="cont">
@@ -73,14 +73,6 @@
         </section>
 
     </main>
-
-        <footer>
-            <p>
-                Copyright
-                <strong>Abdimulhin Adan</strong> </a>
-                &copy;2022
-            </p>
-        </footer>
    
 </body>
 
