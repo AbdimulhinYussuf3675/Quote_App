@@ -30,11 +30,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Rails React
+# 📖 Adam Quote
 
 <a name="about-project"></a>
 
-**Hello Rails React** is a project about building a React app that displays random greetings by fetching from API..
+**Adam Quote** It's a Web App were People add their quotes or other peoples quotes. One can choose to either Like it or dislike it depending on their preference. Add Your Quotes and lets have a view.
 
 ##  Front End app <a name="live-demo"></a>
 
