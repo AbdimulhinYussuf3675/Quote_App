@@ -41,38 +41,31 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- Ruby on Rails
+- JavaScript
 - VSCode
-- Rubocop
-- PostgreSQL
+- ESlint
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Linters</summary>
   <ul>
-  <li>Rubocop</li>
+  <li>ESlint</li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-  <li>Ruby</li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-  <li>PostgreSQL</li>
+  <li></li>
   </ul>
 </details>
 
 
 ### Key Features <a name="key-features"></a>
 
-- **Displays different greetings**
+- **Allow Users to add and delete quotes**
+- **SPA**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,8 +97,8 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd hello_rails_react
-  gem install
+  cd Quote_App
+  npm install
 ```
 
 ### Usage
@@ -120,11 +113,7 @@ To run the project, execute the following command:
 
 To run tests, run the following command:
 
-```sh
-  rails db:create
-  rails db:migrate
-  rails db:seed
-```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
